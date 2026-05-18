@@ -60,8 +60,26 @@ a {
   width: fit-content;
   color: var(--ink);
   text-decoration: none;
-  font-size: 1.05rem;
+}
+
+.brand-text {
+  display: grid;
+  gap: 2px;
+  line-height: 1.05;
+}
+
+.brand-name {
+  font-size: 1.0rem;
   font-weight: 780;
+  color: var(--ink);
+}
+
+.brand-product {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .brand-mark {
